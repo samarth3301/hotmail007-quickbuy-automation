@@ -54,6 +54,7 @@ CLIENT_KEY=your_hotmail007_client_key_here
 
 You can modify the following parameters in `main.py`:
 
+- `BASE_URL`: The base API URL (default: "https://gapi.hotmail007.com")
 - `QUANTITY`: Number of mails to purchase per transaction (default: 1)
 - `NUM_WORKERS`: Number of concurrent stock checking workers (default: 5)
 - `CHECK_INTERVAL`: Time between stock checks in seconds (default: 0.2)
